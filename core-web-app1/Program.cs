@@ -33,6 +33,6 @@ app.UseSession();
 // YOU CAN CUSTOMIZE THE DEFAULT CONTROLLER AND WHERE IT LEADS TO THE "ACTION"
 app.MapControllerRoute(
 	name: "default",
-	pattern: "{controller=Customer}/{action=Index}/{id?}");
+	pattern: "{controller=Account}/{action=WeaklyTyped}/{id?}");
 
 app.Run();
