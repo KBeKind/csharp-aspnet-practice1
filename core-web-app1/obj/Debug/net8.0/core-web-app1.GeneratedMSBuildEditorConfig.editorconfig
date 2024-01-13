@@ -26,6 +26,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\kyler\Desktop\DOTNET-PROJECTS\core-web-app1\core-web-app1
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/kyler/Desktop/DOTNET-PROJECTS/core-web-app1/core-web-app1/Views/Account/LoginPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpblBvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PROJECTS/core-web-app1/core-web-app1/Views/Account/LoginSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpblN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PROJECTS/core-web-app1/core-web-app1/Views/Account/StronglyTypedLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTdHJvbmdseVR5cGVkTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PROJECTS/core-web-app1/core-web-app1/Views/Account/WeaklyTypedLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxXZWFrbHlUeXBlZExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kyler/Desktop/DOTNET-PROJECTS/core-web-app1/core-web-app1/Views/Customer/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
