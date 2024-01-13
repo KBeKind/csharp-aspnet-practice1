@@ -16,8 +16,10 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+
+// YOU CAN CUSTOMIZE THE DEFAULT CONTROLLER AND WHERE IT LEADS TO THE "ACTION"
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Customer}/{action=Index}/{id?}");
 
 app.Run();

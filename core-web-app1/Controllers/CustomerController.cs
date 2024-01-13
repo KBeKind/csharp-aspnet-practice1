@@ -19,5 +19,19 @@ namespace core_web_app1.Controllers
             ViewBag.CustomerList = customers;
             return View();
         }
+
+        public IActionResult Details()
+        {
+            return View();
+        }
+
+        // THE ATTRIBUTE ROUTING OF [Route("~/")] OVERRIDES THE ACTION ROUTING WITHIN Program.cs   
+        // [Route("~/")]
+        // ATTRIBUTE ROUTES OVERRIDE ANY OTHER PREDEFINED/CONVENTIONAL ROUTES WITHIN THE CONTROLLER
+        [Route("~/sample/message")]
+        public IActionResult Message()
+        {
+            return View();
+        }
     }
 }
