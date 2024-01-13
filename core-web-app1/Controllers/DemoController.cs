@@ -68,5 +68,24 @@ namespace core_web_app1.Controllers
 			return RedirectToAction("Index");
 		}
 
+		// REQUEST URL WITH THE QUERY STRING CHECK
+		public IActionResult QueryTest()
+		{
+			string name = "Dudeman";
+			if (!String.IsNullOrEmpty(HttpContext.Request.Query["name"]))
+			{
+				name = HttpContext.Request.Query["name"];
+				ViewBag.Name = name;
+				return View();
+
+			}
+			else
+			{
+				ViewBag.Name = name;
+				return View();
+			}
+
+		}
+
 	}
 }
