@@ -1,0 +1,23 @@
+﻿
+@model IList<core_web_app1.Models.LoginViewModel>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UserList</title>
+</head>
+<body>
+    <ul>
+        @foreach(var item in Model)
+        {
+            <li>Username: @item.Username - Password: @item.Password</li>
+        }
+    </ul>
+</body>
+</html>
