@@ -1,9 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using core_web_app1.Data;
+using core_web_app1.Models;
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<core_web_app1Context>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("core_web_app1Context") ?? throw new InvalidOperationException("Connection string 'core_web_app1Context' not found.")));
+builder.Services.AddDbContext<ApplicationDBContext>(options =>
+    options.UseMySql(builder.Configuration.GetConnectionString("MyAppDatabase") ?? throw new InvalidOperationException("Connection string 'MyAppDatabase' not found."), new MySqlServerVersion(new Version(8, 0, 33))));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

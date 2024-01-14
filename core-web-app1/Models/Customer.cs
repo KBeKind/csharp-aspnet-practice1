@@ -4,7 +4,7 @@
 
     {
         public int Id { get; internal set; }
-        public string Name { get; internal set; }
+        public string? Name { get; internal set; }
         public int Amount { get; internal set; }
     }
 }
